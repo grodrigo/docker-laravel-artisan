@@ -9,6 +9,7 @@ RUN apk --update add php7 \
 	php7-pdo \
 	php7-pdo_mysql \
 	php7-ctype \
+	php7-bcmath \
 	php7-xml --repository http://nl.alpinelinux.org/alpine/edge/testing/ && rm /var/cache/apk/*
 
 RUN ln -s /usr/bin/php7 /usr/bin/php
